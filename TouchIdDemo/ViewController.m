@@ -36,6 +36,7 @@
 
 - (void)preventFlicker:(UIButton *)button {
     button.highlighted = NO;
+    
 }
 
 - (void)buttonAction{
