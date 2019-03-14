@@ -32,6 +32,8 @@
     [button addTarget:self action:@selector(preventFlicker:) forControlEvents:UIControlEventAllTouchEvents];
     [SVProgressHUD setMinimumDismissTimeInterval:1];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"222");
 }
 
 - (void)preventFlicker:(UIButton *)button {
